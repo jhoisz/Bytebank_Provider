@@ -1,7 +1,7 @@
 <h1 align="center"> :moneybag: bytebank  </h1>
 
 ## :pencil2: Descrição
-Aplicação **mobile** desenvolvida durante o curso [Flutter: Criando um App](https://cursos.alura.com.br/course/flutter-crie-primeiro-app) de Flutter, na plataforma **[Alura](https://www.alura.com.br/)**, pelo instrutor [Alex Felipe](https://cursos.alura.com.br/user/alexfelipe). 
+Aplicação **mobile** desenvolvida durante o curso [Criando um App](https://cursos.alura.com.br/course/flutter-crie-primeiro-app) de Flutter, na plataforma **[Alura](https://www.alura.com.br/)**, pelo instrutor [Alex Felipe](https://cursos.alura.com.br/user/alexfelipe). 
 
 ## :ledger: Aprendizados 
 Apesar de ser uma aplicação simples, durante seu desenvolvimento foram exercitados diversos aprendizados, os quais estão listados abaixo:

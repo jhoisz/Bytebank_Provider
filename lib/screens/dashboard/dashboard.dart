@@ -1,4 +1,5 @@
 import 'package:bytebank/screens/dashboard/saldo_card.dart';
+import 'package:bytebank/screens/deposito/formulario.dart';
 import 'package:flutter/material.dart';
 
 class Dashboard extends StatelessWidget {
@@ -10,9 +11,27 @@ class Dashboard extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Bytebank'),
       ),
-      body: Align(
-        alignment: Alignment.topCenter,
-        child: SaldoCard(),
+      body: ListView(
+        children: [
+          const Align(
+            alignment: Alignment.topCenter,
+            child: SaldoCard(),
+          ),
+          ElevatedButton(
+            onPressed: () {
+              // saldo.adiciona(10);
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) {
+                    return FormularioDeposito();
+                  },
+                ),
+              );
+            },
+            child: const Text('Receber depósito'),
+          )
+        ],
       ),
     );
   }

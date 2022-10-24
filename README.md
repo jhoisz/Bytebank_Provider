@@ -10,7 +10,7 @@ O Provider é um **gerenciador de estados** usado no Flutter, que é responsáve
 
 ### 🗄️ Single Source of Truth (SSoT)
 
-O Provider utiliza o conceto de Single Source of Truth, ou Fonte Única de Verdade, que é um termo usado para definir o conceito de gestão de conteúdo a partir de uma única fonte ou ferramenta. A ideia de aplicação agora é utilizar uma única fonte de informações, chamada _Store_.
+O Provider utiliza o conceto de _**Single Source of Truth**_, ou Fonte Única de Verdade, que é um termo usado para definir o conceito de gestão de conteúdo a partir de uma única fonte ou ferramenta. A ideia de aplicação agora é utilizar uma única fonte de informações, chamada _Store_.
 
 <p align="center">
   <img src="https://media.discordapp.net/attachments/962040838123319319/1034143573744033854/Captura_de_tela_2022-10-24_133700.png" alt= "[Imagem de SSoT. Store provê informações para container, componente filho e componente neto." />

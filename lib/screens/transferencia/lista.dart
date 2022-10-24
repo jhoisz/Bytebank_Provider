@@ -35,7 +35,7 @@ class ListaTransferenciaState extends State<ListaTransferencias> {
           Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => const FormularioTransferencia(),
+              builder: (context) => FormularioTransferencia(),
             ),
           ).then(
             (transferenciaRecebida) {

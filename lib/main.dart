@@ -1,8 +1,15 @@
-import 'package:bytebank/screens/transferencia/lista.dart';
+import 'package:bytebank/models/saldo.dart';
+import 'package:bytebank/screens/dashboard/dashboard.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() {
-  runApp(const BytebankApp());
+  runApp(
+    Provider(
+      create: (context) => Saldo(0),
+      child: const BytebankApp(),
+    ),
+  );
 }
 
 class BytebankApp extends StatelessWidget {
@@ -19,7 +26,7 @@ class BytebankApp extends StatelessWidget {
           buttonColor: Colors.indigo,
         ),
       ),
-      home: ListaTransferencias(),
+      home: const Dashboard(),
     );
   }
 }

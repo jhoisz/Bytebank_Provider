@@ -2,7 +2,7 @@
 
 ## ℹ️ Descrição
 
-Aplicação **mobile** desenvolvida durante o curso [Flutter: gerenciamento de estados com Provider]([https://cursos.alura.com.br/course/flutter-crie-primeiro-app](https://cursos.alura.com.br/course/flutter-gerenciamento-estados-provider)) de Flutter, na plataforma **[Alura](https://www.alura.com.br/)**, pela instrutora [Juliana Negreiros](https://cursos.alura.com.br/user/juunegreiros).
+Aplicação **mobile** desenvolvida durante o curso [Flutter: gerenciamento de estados com Provider](https://cursos.alura.com.br/course/flutter-gerenciamento-estados-provider) de Flutter, na plataforma **[Alura](https://www.alura.com.br/)**, pela instrutora [Juliana Negreiros](https://cursos.alura.com.br/user/juunegreiros).
 
 ## ⚡ Flutter Provider
 
